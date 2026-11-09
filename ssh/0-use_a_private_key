@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Connects to the server 3.9.176.117 as user ubuntu using the private key ~/.ssh/school
+ssh -i ~/.ssh/school ubuntu@3.9.176.117
