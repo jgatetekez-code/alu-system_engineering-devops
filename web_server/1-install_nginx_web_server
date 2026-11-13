@@ -1,9 +1,10 @@
 #!/usr/bin/env bash
 # Installs nginx on a new Ubuntu machine and serves a page containing "Holberton School"
 
-apt-get update -y
-apt-get install -y nginx
+sudo apt-get update -y
+sudo apt-get install -y nginx
 
-echo "Holberton School for the win!" > /var/www/html/index.html
+echo "Holberton School for the win!" | sudo tee /var/www/html/index.html > /dev/null
 
-service nginx restart
+sudo service nginx start
+sudo service nginx reload
