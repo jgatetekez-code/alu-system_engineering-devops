@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# installing nginx on my web-01 server
+# Installs nginx on a new Ubuntu machine and serves a page containing "Holberton School"
 
 apt-get update -y
 apt-get install -y nginx
