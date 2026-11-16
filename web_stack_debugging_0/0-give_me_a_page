@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Start Apache to serve the Hello Holberton page
+
+service apache2 start
