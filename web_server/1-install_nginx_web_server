@@ -6,7 +6,7 @@ apt-get install -y nginx
 
 mkdir -p /var/www/html/
 
-# echo "Holberton School for the win!" > /var/www/html/index.html
+echo "Holberton School for the win!" > /var/www/html/index.html
 
 echo "Holberton School for the win!" > /usr/share/nginx/html/index.html
 
