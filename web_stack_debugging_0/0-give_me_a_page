@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
-# Starts Apache so the server returns "Hello Holberton" on port 80
+# Starts Apache so the root page returns Hello Holberton
 service apache2 start
