@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
-# Starts Apache so the root page returns Hello Holberton
-service apache2 start
+# Fixes Apache so the root page returns Hello Holberton
+echo "Hello Holberton" > /var/www/html/index.html
+service apache2 restart
+service apache2 status
